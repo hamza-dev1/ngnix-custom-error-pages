@@ -1,0 +1,61 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    background: crimson;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.error {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.error-code {
+    font-size: 8rem;
+    margin: 0;
+}
+
+.error-title {
+    font-size: 4rem
+}
+
+.error-description {
+    font-size: 2.5rem;
+}
+
+.our-message {
+    font-size: 1.6rem;
+}
+
+.link {
+    color: inherit;
+}
+
+@media screen and (max-width: 992px) {
+    
+    html {
+        font-size: 50%;
+    }
+
+    .error {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+}
